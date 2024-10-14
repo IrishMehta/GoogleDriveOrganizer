@@ -38,7 +38,6 @@ The arguments for the main.py script are as follows:
 - `--source_folder_id`: The ID of the source folder in Google Drive (default: root folder).
 - `--destination_folder_id`: The ID of the destination folder in Google Drive (default: root folder).
 - `--groq_api_key`: The API key for the Groq API (required for classification).
-- `--groq_model_id`: The model ID for the Groq API (default: "groq/large-en-news").
 - `--categories`: A list of categories to classify the files into (default: ["Accounting", "Marketing", "Operations", "Sales", "Technology"]).
 - 
 
@@ -52,4 +51,3 @@ To run the script with the default settings, use the following command:
 - The code currently supports summarization and classification of PDF, DOCX, and image files. Other file types may not be supported.
 - The classification model may not be accurate for all types of documents. Fine-tuning the model on specific categories may improve performance.
 - The code does not handle file updates or deletions. It only processes files that are present in the source folder at the time of execution.
-- 
