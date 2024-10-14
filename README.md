@@ -34,12 +34,14 @@ Key Components:
 6. Run the script using the following command:
 - `python main.py`
 
-The arguments for the main.py script are as follows:
-- `--source_folder_id`: The ID of the source folder in Google Drive (default: root folder).
-- `--destination_folder_id`: The ID of the destination folder in Google Drive (default: root folder).
-- `--groq_api_key`: The API key for the Groq API (required for classification).
-- `--categories`: A list of categories to classify the files into (default: ["Accounting", "Marketing", "Operations", "Sales", "Technology"]).
-- 
+The Configuration options are:
+
+- `Google API Scopes`
+- `Google Drive Folder IDs`
+- `Authentication File Paths`
+- `API Key for Groq (or any other service)`
+- `LLM Configuration`
+- `ategories for classification`
 
 # Example
 To run the script with the default settings, use the following command:
